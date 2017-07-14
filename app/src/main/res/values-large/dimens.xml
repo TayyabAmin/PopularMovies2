@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="size_five">8dp</dimen>
+    <dimen name="size_eight">12dp</dimen>
+    <dimen name="size_ten">15dp</dimen>
+    <dimen name="size_sixteen">24dp</dimen>
+    <dimen name="size_twenty_four">36dp</dimen>
+    <dimen name="size_thirty_two">48dp</dimen>
+    <dimen name="size_hundred">150dp</dimen>
+
+    <dimen name="textsize_twenty">30sp</dimen>
+    <dimen name="textsize_twenty_four">36sp</dimen>
+</resources>

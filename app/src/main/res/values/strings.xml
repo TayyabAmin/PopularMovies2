@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Popular Movies</string>
+
+    <string name="setting">Settings</string>
+
+    <string name="sort_popular">Sort by Most Popular</string>
+    <string name="sort_rating">Sort by Highest Rated</string>
+    <string name="image_descr">Image</string>
+
+    <!--<string name="title">Title</string>
+    <string name="rating">Rating</string>
+    <string name="date">Date</string>
+    <string name="overview">Overview</string>-->
+    <string name="mark_as_fav">MARK AS\nFAVORITE</string>
+    <string name="mark_as_fav_2">FAVORITE MARKED</string>
+    <string name="fav_marked">Favorite Movies</string>
+    <string name="fav_no_item_text">Nothing to display</string>
+    <string name="trailers">Trailers</string>
+    <string name="reviews">Reviews</string>
+
+    <!-- <string name="rating_txt">Rating: </string>
+     <string name="date_txt">Release Date: </string>-->
+</resources>
