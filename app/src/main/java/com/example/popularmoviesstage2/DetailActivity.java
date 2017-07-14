@@ -79,7 +79,7 @@ public class DetailActivity extends AppCompatActivity implements TrailersAdapter
         mBinding.movieTitle.setText(movieTitle);
         String ratingText = movieVotingAverage+"/10";
         mBinding.movieRating.setText(ratingText);
-        mBinding.movieYear.setText(getYear(movieReleaseDate));
+        mBinding.movieYear.setText(movieReleaseDate);
         mBinding.movieOverview.setText(movieOverview);
         if (checkMovieExist(movieId)) {
             mBinding.movieFav.setText(getResources().getString(R.string.mark_as_fav_2));
@@ -109,18 +109,18 @@ public class DetailActivity extends AppCompatActivity implements TrailersAdapter
         }
     }
 
-    private String getYear(String dateString) {
+    /*private String getYear(String dateString) {
         try {
             SimpleDateFormat sdf = new SimpleDateFormat("yyyy-mm-dd", Locale.US);
             Date date = sdf.parse(dateString);
 
-            SimpleDateFormat outputFormat = new SimpleDateFormat("yyyy", Locale.US);
+            SimpleDateFormat outputFormat = new SimpleDateFormat("dd-mm-yyyy", Locale.US);
             return outputFormat.format(date);
         } catch (ParseException e) {
             e.printStackTrace();
             return "";
         }
-    }
+    }*/
 
     @Override
     protected void onSaveInstanceState(Bundle outState) {
